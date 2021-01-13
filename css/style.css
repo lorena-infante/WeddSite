@@ -1,0 +1,39 @@
+/*1 rem = 10px*/
+html{
+    /*1 rem = 10px*/
+    font-size: 62.5%;
+}
+/*Color palette and properties*/
+:root{
+    --white:#F8FAF9;
+    --pineGreen:#055A53;
+    --hunterGreen:#194E30;
+    --emeraldGreen:#0C483E;
+    --gold:#D5A859;
+    --fuentePrincipal: 3.8 rem;
+    
+}
+
+.contenedor{
+position: relative;
+}
+.title-welcome{
+    position: absolute;
+    bottom: 20rem;
+    right: 60rem;
+    background-color:var(--emeraldGreen);
+    padding-left: 20px;
+    padding-right: 20px;
+    color: var(--white);
+}
+.foto { 
+    height: 100%;
+    width: 100%;
+    opacity:75%
+
+}
+body{
+    
+
+    font-size: 16px;
+}
