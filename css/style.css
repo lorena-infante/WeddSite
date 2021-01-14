@@ -22,8 +22,6 @@ position: relative;
     bottom: 20rem;
     right: 60rem;
     background-color:var(--emeraldGreen);
-    padding-left: 20px;
-    padding-right: 20px;
     color: var(--white);
 }
 .foto { 
