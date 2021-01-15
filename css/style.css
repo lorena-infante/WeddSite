@@ -15,23 +15,27 @@ html{
 }
 
 .contenedor{
-position: relative;
+    /*max-width:100%;*/
+    
+}
+.poto{ 
+    position: absolute;
+    width: 100%;
+    background-image: url(../img/_MG_4430.jpg);
+    
+    
+}
+@media (min-width:480px ) {
+     
 }
 .title-welcome{
-    position: absolute;
+ /*   position: absolute;
     bottom: 20rem;
     right: 60rem;
     background-color:var(--emeraldGreen);
     color: var(--white);
 }
-.foto { 
-    height: 100%;
-    width: 100%;
-    opacity:75%
 
-}
 body{
-    
-
     font-size: 16px;
 }
